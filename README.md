@@ -1,10 +1,10 @@
 # Developing a Neural Network Classification Model
 
-## AIM
+## Aim:
 
 To develop a neural network classification model for the given dataset.
 
-## PROBLEM STATEMENT:
+## Problem Statement:
 
 An automobile company has plans to enter new markets with their existing products. After intensive market research, they’ve decided that the behavior of the new market is similar to their existing market.
 
@@ -17,7 +17,7 @@ You are required to help the manager to predict the right group of the new custo
 ![image](https://github.com/Aashima02/nn-classification/assets/93427086/4c34d043-7f67-4ba8-b62c-d6e36f7ccf52)    
 
 
-## DESIGN STEPS:
+## Design Steps:
 
 1. Import the necessary packages & modules
 
@@ -42,7 +42,7 @@ You are required to help the manager to predict the right group of the new custo
 11. Using the DL model predict for some random inputs
     
 
-## PROGRAM:
+## Program:
 ```python
 ## Import the necessary libraries
 import pandas as pd
@@ -230,7 +230,7 @@ print(le.inverse_transform(x_prediction))
 ![image](https://github.com/Aashima02/nn-classification/assets/93427086/e42bd68a-8021-4f54-999e-0487be9ac723)
 
 
-## OUTPUT:
+## Output:
 
 ### Training Loss, Validation Loss Vs Iteration Plot:
 ![image](https://github.com/Aashima02/nn-classification/assets/93427086/a53dccd6-04e0-4ed4-b1a3-2ad9e24c2222)
@@ -250,5 +250,5 @@ print(le.inverse_transform(x_prediction))
 ![image](https://github.com/Aashima02/nn-classification/assets/93427086/fe284f7a-eda2-4dba-8b3a-5fdb045fd255)
 
 
-## RESULT:
+## Result:
 A neural network classification model is developed for the given dataset.
